@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Manfredi - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" data-i18n="nav.home">Inicio</a></li>
+                <li><a href="#about" data-i18n="nav.about">Sobre Mí</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">Habilidades</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="languageToggle" class="language-toggle">EN</button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="hero.name">Ian Manfredi</h1>
+                <p data-i18n="hero.title">Estudiante de Programación</p>
+                <a href="#contact" class="cta-button" data-i18n="hero.cta">Contáctame</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 data-i18n="about.title">Sobre Mí</h2>
+            <div class="about-card">
+                <img src="https://source.unsplash.com/random/300x300/?portrait" alt="Ian Manfredi" class="profile-image">
+                <div class="about-content">
+                    <p data-i18n="about.description">
+                        Soy un estudiante de Programación en la Universidad Tecnológica Nacional (UTN) en Bahía Blanca, actualmente en mi primer año. Tengo 18 años y soy apasionado por el desarrollo de software. En la universidad, aprendí C# y Python, y actualmente estoy profundizando en todo lo relacionado con bases de datos. Además, por mi cuenta, completé un curso de HTML y CSS, y estoy comenzando a crear mi propio portafolio. También tengo conocimientos en GitHub, Docker y Linux. Siempre estoy buscando nuevas oportunidades para aprender y mejorar mis habilidades.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 data-i18n="skills.title">Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <!-- Las habilidades se cargarán dinámicamente con JavaScript -->
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 data-i18n="projects.title">Proyectos</h2>
+            <div class="project-grid">
+                <!-- Los proyectos se cargarán dinámicamente con JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 data-i18n="contact.title">Contacto</h2>
+            <div class="contact-links">
+                <a href="https://github.com/ianmanfredi" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/ianmanfredi" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:ian.manfredi@example.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">&copy; 2023 Ian Manfredi. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
